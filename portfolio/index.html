@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -15,59 +15,64 @@
 <body>
    <!-- Navbar e Breadcrumb -->
 
-   <header>
-    <nav class="navbar sticky-top bg-dark">
+   <header class="sticky-top">
+    <nav class="navbar bg-white">
         <div class="container">
           
-          <a class="navbar-brand text-white">Bruno Arrostini</a>
-          
+          <a class="navbar-brand text-dark">Bruno Arrostini</a>
+          <div class="row">
+            <div class="col">
+              <nav aria-label="breadcrumb">
+               <ol class="breadcrumb mx-3 my-3">
+                 <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+                 <li class="breadcrumb-item"><a href="/bio/index.html">Bio</a></li>
+                 <li class="breadcrumb-item active" aria-current="page">Portfolio</li>
+                 </ol>
+              </nav>
+            </div>
+          </div>
         
         </div>
       </nav>
   </header>
 
 
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb mx-3 my-3">
-      <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
-      <li class="breadcrumb-item"><a href="/bio/index.html">Bio</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Portfolio</li>
-    </ol>
-  </nav>
+  
 
 
   <div class="container">
     <div class="d-flex flex-row mt-5">
-        <div class="col align-self-center"><h1 class="Proj-1">Project Placeholder</h1></div>
-        <div class="col"> <img src="/assets/img/placeholder-1.gif" class="img-fluid w-75"></div>
+        <div class="col align-self-center"><a href="https://brunoarrostini.github.io" class="text-reset"><h1 class="Proj-1">Personal Website</h1></a> </div>
+        <div class="col"> <img src="/assets/img/Schermata 2022-10-28 alle 09.33.44.png" class="img-fluid w-75 shadow"></div>
         
     </div>
   </div>
   <br>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h5 class="p-4 text-black text-center">
+          <p>I created my personal Website including all my contacts. <br>
+            It reflects my idea of a <strong>Simple Design</strong> that I appreciated living in Scandinavia. <br>
+            I decided to use a simple layout, using 3 colors and some info about me. <br>
+            Click on link above to learn more.
+             
+          </p>
+        </h5>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+
   <hr>
-
-  <div class="container">
-    <div class="d-flex flex-row mt-5">
-        <div class="col align-self-center"><h1 class="Proj-1">Project Placeholder</h1></div>
-        <div class="col"> <img src="/assets/img/placeholder-2.png" class="img-fluid w-75"></div>
-        
-    </div>
-  </div>
-
- <br>
- <hr>
-
-  <div class="container">
-    <div class="d-flex flex-row mt-5">
-        <div class="col align-self-center"><h1 class="Proj-1">Project Placeholder</h1></div>
-        <div class="col"> <img src="/assets/img/placeholder-3.jpg.webp" class="img-fluid w-75"></div>
-        
-    </div>
-  </div>
    
    <!-- Copyright -->
-   <div class="text-center p-4 mt-5" style="background-color: rgba(0, 0, 0, 0.05);">
+   <div class="text-center p-2 mb-2">
     © 2022 Copyright - Bruno Arrostini
+    </div>
 </footer>
   
 

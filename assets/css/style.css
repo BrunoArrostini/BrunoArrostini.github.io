@@ -74,6 +74,20 @@ font-weight: 700;
     font-family:Impact, arial, sans-serif;
 }
 
+/*Skills*/
+
+.bi.bi-file-text:hover{
+  color: rgb(0, 143, 0);
+  cursor: pointer;
+  zoom:105%;
+}
+
+.bi.bi-bootstrap:hover{
+    color: rgb(0, 143, 0);
+    cursor: pointer;
+    zoom:105%;
+  }
+
 /*Portfolio*/
 
 .Proj-1{
