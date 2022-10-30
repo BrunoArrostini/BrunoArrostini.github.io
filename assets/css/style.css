@@ -69,10 +69,17 @@ font-weight: 700;
 .main-text{
     font-family:Impact, arial, sans-serif;
     color: rgb(32, 91, 32);
+
 }
 .blockquote{
     font-family:Impact, arial, sans-serif;
 }
+
+/*Mission*/
+.testo-mission{
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+}
+
 
 /*Skills*/
 
@@ -86,6 +93,10 @@ font-weight: 700;
     color: rgb(0, 143, 0);
     cursor: pointer;
     zoom:105%;
+  }
+
+  .text-skills{
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
   }
 
 /*Portfolio*/
@@ -116,7 +127,6 @@ font-weight: 700;
     display: block;
     padding: 6px 30px;
     font-size: 14px;
-    border-radius: 6px;
     color: #fff;
     border: none
   }
