@@ -76,10 +76,17 @@ font-weight: 700;
 }
 
 /*Mission*/
+.mission-title{
+    font-family: Impact,'Arial Narrow Bold', sans-serif; 
+}
+
 .testo-mission{
     font-family: Impact,'Arial Narrow Bold', sans-serif;
 }
-
+.mission-points{
+    color:rgb(32, 91, 32);
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+}
 
 /*Skills*/
 
@@ -103,6 +110,10 @@ font-weight: 700;
 
 .Proj-1{
     font-family: Impact,'Arial Narrow Bold', sans-serif;
+}
+
+.simple-design{
+    font-style: italic;
 }
 
 /*Email form*/
@@ -390,15 +401,27 @@ font-weight: 700;
     }
 }
 
-@media only screen and (max-width: 430px) {
-    .profile-pic{
-  display: none;
-  }
+@media only screen and (max-width: 414px) {
+    
   .field{
     display: flex;
     justify-content: center;
   }
   
+  .field label{
+    display: block;
+    width: 100%;
+  }
+
+  .field input{
+   display:block;   
+   width: 100%; 
+    
+  }
+
+  input[type="submit"]{
+    width: 100%;
+  }
 
  }
 
